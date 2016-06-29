@@ -1,0 +1,22 @@
+# Site settings
+title: 青岛大学ACM
+header-img: img/home-bg.jpg
+email: your-email@yourdomain.com
+copyright_name: QDUACM
+description: "An awsome team"
+baseurl: ""
+url: "https://qingdaou.github.io"
+github_username:  QingdaoU
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
